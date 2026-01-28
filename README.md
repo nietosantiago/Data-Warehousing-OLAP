@@ -121,10 +121,7 @@ El Data Warehouse permite:
 
 ## 👥 Equipo de Trabajo
 - Santiago Nieto  
-- Oscar Marasca  
 - Aitor Ortuño Rossetto  
-- Romina Salinas  
-- Daniel Simosa  
 
 ---
 
