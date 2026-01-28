@@ -40,14 +40,14 @@ La empresa enfrenta una **gestión ineficiente del stock de equipamiento y compo
 ### 📌 Diagrama Conceptual
 Representa las principales entidades del negocio y sus relaciones, enfocándose en **inventario, ventas y compras** desde una perspectiva analítica.
 
-![Diagrama Conceptual del Data Warehouse](images/diagrama_conceptual.png)
+![Diagrama Conceptual del Data Warehouse](https://raw.githubusercontent.com/nietosantiago/Data-Warehousing-OLAP/main/Diagrama%20conceptual-Diagrama%20Conceptual.drawio%20(1).png)
 
 ---
 
 ### 📌 Diagrama Lógico
 Modelo lógico basado en **esquema en estrella**, con tablas de hechos y dimensiones optimizadas para consultas analíticas y herramientas de BI.
 
-![Diagrama Lógico del Data Warehouse](images/diagrama_logico.png)
+![Diagrama Lógico del Data Warehouse](https://raw.githubusercontent.com/nietosantiago/Data-Warehousing-OLAP/main/Diagrama%20conceptual-Diagrama%20L%C3%B3gico.drawio%20(1).png)
 
 ---
 
@@ -134,4 +134,3 @@ Este proyecto se centra en el **diseño analítico y el modelado de datos**, sen
 ---
 
 📬 Para consultas o colaboraciones, podés contactarme vía LinkedIn.
-
