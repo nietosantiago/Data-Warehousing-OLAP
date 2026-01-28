@@ -35,12 +35,28 @@ La empresa enfrenta una **gestión ineficiente del stock de equipamiento y compo
 
 ---
 
+## 🧱 Arquitectura del Data Warehouse
+
+### 📌 Diagrama Conceptual
+Representa las principales entidades del negocio y sus relaciones, enfocándose en **inventario, ventas y compras** desde una perspectiva analítica.
+
+![Diagrama Conceptual del Data Warehouse](images/diagrama_conceptual.png)
+
+---
+
+### 📌 Diagrama Lógico
+Modelo lógico basado en **esquema en estrella**, con tablas de hechos y dimensiones optimizadas para consultas analíticas y herramientas de BI.
+
+![Diagrama Lógico del Data Warehouse](images/diagrama_logico.png)
+
+---
+
 ## 📐 Diseño del Data Warehouse
 
 ### Enfoque de Modelado
-- **Modelado dimensional (Esquema en estrella)**
+- **Modelado dimensional (Star Schema)**
 - Separación entre **tablas de hechos** y **tablas de dimensiones**
-- Optimizado para análisis y herramientas de BI
+- Optimizado para análisis y reporting
 
 ### Tablas de Hechos
 - **Hecho Inventario**
@@ -113,8 +129,9 @@ El Data Warehouse permite:
 ---
 
 ## 📌 Notas
-Este proyecto se enfoca en el **diseño analítico y el modelado de datos**, sentando las bases para futuros procesos de ETL y la construcción de dashboards en herramientas de BI.
+Este proyecto se centra en el **diseño analítico y el modelado de datos**, sentando las bases para futuros procesos de ETL y la construcción de dashboards en herramientas de BI.
 
 ---
 
 📬 Para consultas o colaboraciones, podés contactarme vía LinkedIn.
+
