@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Data Warehouse – Gestión de Stock | Excelcom</title>
+
+  <!-- Google Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+  <style>
+    :root {
+      --bg: #f4f6f9;
+      --card: #ffffff;
+      --primary: #2563eb;
+      --secondary: #1e293b;
+      --text: #1f2937;
+      --muted: #6b7280;
+      --radius: 14px;
+    }
+
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Inter', sans-serif;
+      background-color: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #2563eb, #1e40af);
+      color: white;
+      padding: 3.5rem 1.5rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.4rem;
+      font-weight: 700;
+    }
+
+    header p {
+      margin-top: 1rem;
+      max-width: 720px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 1.05rem;
+      opacity: 0.95;
+    }
+
+    main {
+      max-width: 1100px;
+      margin: 3rem auto;
+      padding: 0 1.5rem;
+    }
+
+    section {
+      background: var(--card);
+      border-radius: var(--radius);
+      padding: 2.2rem;
+      margin-bottom: 2.5rem;
+      box-shadow: 0 12px 30px rgba(0,0,0,0.06);
+    }
+
+    h2 {
+      margin-top: 0;
+      font-size: 1.5rem;
+      color: var(--primary);
+    }
+
+    h3 {
+      margin-bottom: 0.5rem;
+      color: var(--secondary);
+      font-size: 1.15rem;
+    }
+
+    p {
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    li {
+      margin-bottom: 0.5rem;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .image-box {
+      text-align: center;
+    }
+
+    .image-box img {
+      max-width: 100%;
+      border-radius: 10px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.08);
+    }
+
+    footer {
+      text-align: center;
+      padding: 2.5rem 1rem;
+      font-size: 0.85rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    footer a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>📦 Data Warehouse – Gestión de Stock</h1>
+  <p>
+    Diseño de un Data Warehouse orientado a mejorar la planificación de inventarios,
+    reducir el sobre stock y habilitar decisiones de negocio basadas en datos.
+  </p>
+</header>
+
+<main>
+
+  <section>
+    <h2>📊 Descripción del Proyecto</h2>
+    <p>
+      Este proyecto aborda el diseño de un <strong>Data Warehouse para la gestión de stock</strong>
+      en una empresa de servicios IT, utilizando <strong>modelado dimensional</strong> para facilitar
+      el análisis de inventarios, ventas y compras desde una perspectiva de negocio.
+    </p>
+  </section>
+
+  <section>
+    <h2>🏢 Contexto y Problema</h2>
+    <div class="grid">
+      <div>
+        <h3>Contexto</h3>
+        <p>
+          Excelcom es una empresa dedicada a la comercialización e integración de tecnología,
+          con más de 20 años de trayectoria. El crecimiento sin planificación basada en demanda
+          generó un exceso de inventario.
+        </p>
+      </div>
+      <div>
+        <h3>Problema</h3>
+        <p>
+          Gestión ineficiente del stock, con capital inmovilizado y altos costos de almacenamiento,
+          afectando la eficiencia operativa y financiera.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🎯 Objetivos</h2>
+    <ul>
+      <li>Reducir en un <strong>10% el capital inmovilizado</strong> en un año.</li>
+      <li>Mejorar la visibilidad del stock, ventas y compras.</li>
+      <li>Habilitar reporting analítico por región, tiempo y categoría.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>🧱 Arquitectura del Data Warehouse</h2>
+
+    <div class="image-box">
+      <h3>Diagrama Conceptual</h3>
+      <img src="https://raw.githubusercontent.com/nietosantiago/Data-Warehousing-OLAP/main/Diagrama%20conceptual-Diagrama%20Conceptual.drawio%20(1).png"
+           alt="Diagrama Conceptual Data Warehouse">
+    </div>
+
+    <br><br>
+
+    <div class="image-box">
+      <h3>Diagrama Lógico (Esquema en Estrella)</h3>
+      <img src="https://raw.githubusercontent.com/nietosantiago/Data-Warehousing-OLAP/main/Diagrama%20conceptual-Diagrama%20L%C3%B3gico.drawio%20(1).png"
+           alt="Diagrama Lógico Data Warehouse">
+    </div>
+  </section>
+
+  <section>
+    <h2>📐 Diseño y Capacidades Analíticas</h2>
+    <div class="grid">
+      <div>
+        <h3>Hechos</h3>
+        <ul>
+          <li>Inventario</li>
+          <li>Ventas</li>
+          <li>Compras</li>
+        </ul>
+      </div>
+      <div>
+        <h3>Dimensiones</h3>
+        <ul>
+          <li>Tiempo</li>
+          <li>Producto y Categoría</li>
+          <li>Región</li>
+          <li>Depósito</li>
+          <li>Proveedor</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>🧠 Valor para el Negocio</h2>
+    <ul>
+      <li>Mejor planificación de la demanda.</li>
+      <li>Reducción del sobre stock.</li>
+      <li>Optimización de decisiones de compra.</li>
+      <li>Gestión de inventarios basada en KPIs.</li>
+    </ul>
+  </section>
+
+</main>
+
+<footer>
+  © 2026 · Santiago Nieto  
+  <br>
+  <a href="https://www.linkedin.com/in/nietosantiago" target="_blank">LinkedIn</a>
+</footer>
+
+</body>
+</html>
